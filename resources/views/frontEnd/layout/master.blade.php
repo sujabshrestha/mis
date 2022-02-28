@@ -67,7 +67,7 @@
     />
     <script src="https://kit.fontawesome.com/3a77735fb2.js" crossorigin="anonymous"></script>
 
-    <link rel="shortcut icon" href="{{ asset('mis/images/logos/orgnial.png') }}" />
+    <link rel="shortcut icon" href="{{ asset(getSiteSetting('logo')) ?? '' }}" />
     @stack('style')
 
     <div id="fb-root"></div>
